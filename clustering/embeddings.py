@@ -1,5 +1,5 @@
 def embed_txt(text, model):
-    client = OpenAI(api_key="sk-proj-UBVzZbqQLamBsQQNWlsjT3BlbkFJdOHw9uCEA6QFdvZpCxu7")
+    client = OpenAI(api_key)
     response = client.embeddings.create(
         model=model,
         input=text
